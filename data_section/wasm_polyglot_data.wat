@@ -7,4 +7,4 @@
   (export "memory" (memory 0))
   (export "hello" (func 0))
   (data (;0;) (i32.const 16) "hello from WebAssembly !\00")
-  (data (;0;) (i32.const 42) "--><div id='mypage'><script language=javascript type='text/javascript'>alert('hello from HTML/JS !');document.documentElement.innerHTML = document.getElementById('mypage').innerHTML;document.title = 'wasm/html/js polyglot';</script><!-- "))
+  (data (;0;) (i32.const 42) "--><div id='mypage'><script>alert('hello from HTML/JS !');document.documentElement.innerHTML = document.getElementById('mypage').innerHTML;document.title = 'wasm/html/js polyglot';</script><!-- "))
